@@ -1,0 +1,19 @@
+[package]
+name = "oidn2-sys"
+version = "0.0.1"
+edition = "2021"
+description = "FFI bindings for Intel's Open Image Denoise library."
+keywords = ["intel", "oidn", "image", "denoise"]
+categories = ["external-ffi-bindings", "graphics", "rendering", "multimedia"]
+repository = "https://github.com/psytrx/oidn2-sys/"
+documentation = "https://docs.rs/oidn2-sys/"
+license-file = "LICENSE"
+
+exclude = [".gitignore"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.68.1"
